@@ -1,0 +1,30 @@
+{
+  "name": "koa-router-helper",
+  "version": "1.0.2",
+  "description": "autoload koa-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "router",
+    "helper",
+    "koa-router",
+    "koa-router-autoload",
+    "autoload",
+    "koa-router-helper"
+  ],
+  "author": "Jkin.Feng",
+  "license": "MIT",
+  "dependencies": {
+    "koa-compose": "^4.1.0",
+    "koa-router": "^9.0.1"
+  },
+  "homepage": "https://github.com/jkinfeng/koa-router-helper.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkinfeng/koa-router-helper.git"
+  }
+}
