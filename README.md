@@ -33,7 +33,7 @@ regular: regular expression matching files
 ```
 
 ## Version
-1.0.2
+1.0.3
 
 ## Copyright
 (C) 2020 Jkin.Feng
