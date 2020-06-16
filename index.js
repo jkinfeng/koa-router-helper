@@ -7,14 +7,18 @@ const compose = require('koa-compose');
 module.exports = autoLoadRouter;
 
 function autoLoadRouter($options) {
-    const $opts = $options || Object.assign({
+    const $opts = Object.assign({
         path: process.cwd(),
-        regular: /router.js$/
-    }, $options);
+        regular: /\.router.js$/
+    }, $options || {});
 
     let __arr = [];
     searchFiles($opts).forEach(function ($routeFile) {
-        __arr.push(require($routeFile).routes());
+        try {
+            __arr.push(require($routeFile).routes());
+        } catch (e) {
+            console.log('this is not a valid router file of: ' + $routeFile);
+        }
     });
 
     return compose(__arr);
