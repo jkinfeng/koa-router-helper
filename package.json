@@ -1,6 +1,6 @@
 {
   "name": "koa-router-helper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "autoload koa-router",
   "main": "index.js",
   "scripts": {
