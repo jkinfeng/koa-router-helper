@@ -1,3 +1,8 @@
+1.0.5 / 2020-06-17
+==================
+- fix when no router files found, then the 'koa-compose' can't autoload router files.
+  return an empty function
+    
 1.0.4 / 2020-06-16
 ==================
 
