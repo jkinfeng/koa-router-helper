@@ -20,7 +20,12 @@ function autoLoadRouter($options) {
             console.log('this is not a valid router file of: ' + $routeFile);
         }
     });
-
+    if (__arr.length === 0) {
+        console.log('no router files found.');
+        return async (ctx, next) => {
+            await next();
+        }
+    }
     return compose(__arr);
 }
 
