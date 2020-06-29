@@ -2,9 +2,9 @@
 
 > Autoload router files for [koa-router](https://github.com/koajs/router).
 
-[![Node.js Version](https://img.shields.io/node/v/@koa/router.svg?style=flat)](http://nodejs.org/download/)
 [![NPM version](https://img.shields.io/npm/v/koa-router-helper.svg?style=flat)](https://github.com/jkinfeng/koa-router-helper) 
 [![NPM Downloads](https://img.shields.io/npm/dm/koa-router-helper.svg?style=flat)](https://github.com/jkinfeng/koa-router-helper) 
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/jkinfeng/koa-router-helper/blob/HEAD/LICENSE)
 
 ## Installation
 
