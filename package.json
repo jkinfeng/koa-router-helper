@@ -1,6 +1,6 @@
 {
   "name": "koa-router-helper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "autoload koa-router",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "koa-compose": "^4.1.0",
-    "koa-router": "^9.0.1"
+    "koa-router": "^9.1.0"
   },
   "homepage": "https://github.com/jkinfeng/koa-router-helper.git#readme",
   "repository": {
